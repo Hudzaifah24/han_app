@@ -182,7 +182,7 @@ a {
     display: flex;
     justify-content: space-between;
     flex-direction: column-reverse;
-    margin: 0 0 4rem 0;
+    margin: 0 0 2rem 0;
   }
 
   .hero-right {
