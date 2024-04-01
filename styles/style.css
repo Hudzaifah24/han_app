@@ -209,7 +209,7 @@ a {
   text-align: left;
   width: 100%;
   position: absolute;
-  top: 5rem;
+  top: 4rem;
   left: 0;
   background-color: #fff;
   padding: 2rem;
@@ -284,10 +284,10 @@ a {
 /* Logo and navigation menu */
 .nav {
   display: flex;
-  position: fixed;
-  z-index: 50;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  z-index: 50;
   width: 100%;
   padding: 0.8rem 2rem;
   background-color: #fff;
@@ -333,7 +333,7 @@ nav ul li a {
   /* display: none; */
   z-index: 99;
   position: fixed;
-  top: 33px;
+  top: 20px;
   right: 35px;
   cursor: pointer;
 }
