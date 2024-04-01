@@ -70,6 +70,18 @@ a {
     padding: 6rem;
   }
 
+  #contacts {
+    padding: 6rem;
+  }
+
+  #portofolios {
+    padding: 6rem;
+  }
+
+  #services {
+    padding: 6rem;
+  }
+
   #hero {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -98,6 +110,18 @@ a {
     padding: 6rem;
   }
 
+  #contacts {
+    padding: 6rem;
+  }
+
+  #portofolios {
+    padding: 6rem;
+  }
+
+  #services {
+    padding: 6rem;
+  }
+
   .skill-list div {
     flex-direction: column;
   }
@@ -115,6 +139,18 @@ a {
 
   .skill-grid {
     grid-template-columns: 1fr;
+  }
+
+  #contacts {
+    padding: 6rem 1rem;
+  }
+
+  #portofolios {
+    padding: 6rem 1rem;
+  }
+
+  #services {
+    padding: 6rem 1rem;
   }
 
   .contact-grid {
@@ -291,7 +327,6 @@ nav ul li a {
 /* Services Section */
 #services {
   background-color: #fff8e9;
-  padding: 6rem;
 }
 
 #services .pre-tittle {
@@ -319,7 +354,6 @@ nav ul li a {
 /* My Works Section */
 #portofolios {
   background-color: #fff;
-  padding: 6rem;
 }
 
 #portofolios .pre-tittle {
@@ -461,7 +495,6 @@ nav ul li a {
 /* Contacts */
 #contacts {
   background-color: #fff;
-  padding: 6rem;
 }
 
 .contact-grid {
