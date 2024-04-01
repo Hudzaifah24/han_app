@@ -57,6 +57,15 @@ a {
     display: none;
   }
 
+  .skill-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
   #hero {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -68,6 +77,15 @@ a {
 @media screen and (max-width: 1021px) {
   .nav nav {
     display: none;
+  }
+
+  .skill-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 5rem;
   }
 
   #hero {
@@ -226,7 +244,7 @@ nav ul li a {
 
 /* Services Section */
 #services {
-  background-color: #fec756;
+  background-color: #fff8e9;
   padding: 6rem;
 }
 
@@ -322,5 +340,174 @@ nav ul li a {
   border-radius: 3px;
   padding: 0.5rem;
   font-weight: 400;
+  color: #6b6b6b;
+}
+
+/* Skills */
+#skills {
+  background-color: hsl(41, 100%, 96%);
+  padding: 6rem;
+}
+
+.skill-grid {
+  display: grid;
+  gap: 2rem;
+  width: 100%;
+}
+
+.skill {
+  width: 100%;
+}
+
+#skills .pre-tittle {
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+
+.vertical-line {
+  border-left: 3px solid #da3933; /* Atur tebal dan warna garis */
+  height: 130px; /* Atur tinggi garis */
+  position: relative;
+}
+
+.ball-line {
+  height: 13px;
+  width: 13px;
+  border-radius: 100%;
+  background-color: #da3933;
+  position: absolute;
+  top: 0;
+  left: -8px;
+}
+
+.vertical-line .vertical-line-body {
+  position: absolute;
+  top: -0.1rem;
+  left: 1.6rem;
+}
+
+.vertical-line-title {
+  font-weight: 600;
+  line-height: 19.36px;
+}
+
+.vertical-line-subtitle {
+  color: #6b6b6b;
+  margin: 0.6rem 0;
+}
+
+.vertical-line-4 {
+  height: 90px;
+}
+
+.skill-list ul {
+  padding: 3rem 0rem 0rem 1rem;
+}
+
+.skill-list ul li {
+  margin: 0.5rem;
+}
+
+.skill-list div {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Contacts */
+#contacts {
+  background-color: #fff;
+  padding: 6rem;
+}
+
+.contact-grid {
+  display: grid;
+}
+
+.contact {
+  width: 100%;
+}
+
+.contact-message {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+}
+
+.form-input {
+  background-color: #fff8e9;
+  border-radius: 5px;
+  border: none;
+  padding: 1rem;
+  color: #6b6b6b;
+  margin: 0 0 1.5rem 0;
+}
+
+.contact-message .btn-send {
+  padding: 0.8rem;
+  background-color: #da3933;
+  border: none;
+  color: #fff;
+  line-height: 19.36px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-static {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.contact-flex {
+  display: flex;
+  gap: 1rem;
+}
+
+.contact-box {
+  background-color: #da3933;
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-box svg path {
+  fill: #fff;
+}
+
+.contact-static-title {
+  font-weight: 600;
+}
+
+.contact-static-subtitle {
+  font-weight: 400;
+}
+
+footer {
+  background-color: #f5f5f5;
+  padding: 2rem 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.footer-icon {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.footer-icon svg path {
+  fill: #6b6b6b;
+}
+
+footer p {
+  font-weight: 400;
+  line-height: 19.36px;
   color: #6b6b6b;
 }
