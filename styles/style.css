@@ -122,6 +122,10 @@ a {
     padding: 6rem;
   }
 
+  .skill-list {
+    margin-top: 3rem;
+  }
+
   .skill-list div {
     flex-direction: column;
   }
@@ -164,6 +168,10 @@ a {
 
   #skills {
     padding: 6rem 1rem;
+  }
+
+  .skill-list {
+    margin-top: 3rem;
   }
 
   .skill-list div {
