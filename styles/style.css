@@ -66,6 +66,10 @@ a {
     gap: 2rem;
   }
 
+  #skills {
+    padding: 6rem;
+  }
+
   #hero {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -73,8 +77,38 @@ a {
   }
 }
 
+/* For tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .nav nav {
+    display: none;
+  }
+
+  #hero {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    margin: 0 0 4rem 0;
+  }
+
+  .hero-right {
+    margin: 3rem 0;
+  }
+
+  #skills {
+    padding: 6rem;
+  }
+
+  .skill-list div {
+    flex-direction: column;
+  }
+
+  .contact-static {
+    margin-top: 3rem;
+  }
+}
+
 /* Styles for Android devices */
-@media screen and (max-width: 1021px) {
+@media screen and (max-width: 767px) {
   .nav nav {
     display: none;
   }
@@ -86,6 +120,18 @@ a {
   .contact-grid {
     grid-template-columns: 1fr;
     gap: 5rem;
+  }
+
+  .contact-static {
+    margin-top: 3rem;
+  }
+
+  #skills {
+    padding: 6rem 1rem;
+  }
+
+  .skill-list div {
+    flex-direction: column;
   }
 
   #hero {
@@ -346,7 +392,6 @@ nav ul li a {
 /* Skills */
 #skills {
   background-color: hsl(41, 100%, 96%);
-  padding: 6rem;
 }
 
 .skill-grid {
