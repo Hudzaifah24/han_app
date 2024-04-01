@@ -83,6 +83,10 @@ a {
   }
 
   #hero {
+    padding: 6rem;
+  }
+
+  #hero {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -122,6 +126,10 @@ a {
     padding: 6rem;
   }
 
+  #hero {
+    padding: 6rem;
+  }
+
   .skill-list {
     margin-top: 3rem;
   }
@@ -154,6 +162,10 @@ a {
   }
 
   #services {
+    padding: 6rem 1rem;
+  }
+
+  #hero {
     padding: 6rem 1rem;
   }
 
@@ -248,7 +260,7 @@ a {
   width: fit-content;
   font-weight: 400;
   font-size: 0.6rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .pre-tittle::before {
@@ -276,7 +288,7 @@ a {
   z-index: 50;
   justify-content: space-between;
   width: 100%;
-  padding: 2rem 2.5rem;
+  padding: 0.8rem 6rem;
   background-color: #fff;
 }
 
@@ -328,7 +340,7 @@ nav ul li a {
 /* Hero Section */
 #hero {
   height: 720px;
-  padding: 0 2.5rem;
+  /* padding: 0 2.5rem; */
 }
 
 .button-contact-me {
@@ -379,6 +391,21 @@ nav ul li a {
   border-radius: 0.7rem;
 }
 
+.service-box {
+  background-color: #da3933;
+  border-radius: 5px;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.service-box svg path {
+  fill: #fff;
+}
+
 .service h4 {
   margin: 1.5rem 0;
   font-weight: 500;
@@ -397,7 +424,6 @@ nav ul li a {
 
 .portofolio-icon {
   border-radius: 5px 5px 0 0;
-  /* background-color: #fff; */
   margin-bottom: 0.5rem;
 }
 
@@ -455,6 +481,7 @@ nav ul li a {
   padding: 0.5rem;
   font-weight: 400;
   color: #6b6b6b;
+  font-size: 14px;
 }
 
 /* Skills */
@@ -502,6 +529,7 @@ nav ul li a {
 .vertical-line-title {
   font-weight: 600;
   line-height: 19.36px;
+  color: #312f30;
 }
 
 .vertical-line-subtitle {
@@ -524,6 +552,12 @@ nav ul li a {
 .skill-list div {
   display: flex;
   justify-content: space-between;
+}
+
+.skill-list-desc {
+  color: #6b6b6b;
+  font-weight: 400;
+  line-height: 19.36px;
 }
 
 /* Contacts */
@@ -572,6 +606,7 @@ nav ul li a {
 
 .contact-flex {
   display: flex;
+  align-items: center;
   gap: 1rem;
 }
 
@@ -592,6 +627,8 @@ nav ul li a {
 
 .contact-static-title {
   font-weight: 600;
+  line-height: 19.36px;
+  color: #312f30;
 }
 
 .contact-static-subtitle {
