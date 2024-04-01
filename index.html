@@ -36,11 +36,21 @@
             </ul>
           </nav>
 
-          <div class="burger">
+          <div onclick="dropdown()" class="burger">
             <div class="line-1"></div>
             <div class="line-2"></div>
             <div class="line-3"></div>
           </div>
+
+          <ul id="dropdown">
+            <li onclick="dropdown_item()"><a href="#services">Services</a></li>
+            <li onclick="dropdown_item()">
+              <a href="#portofolios">Portofolio</a>
+            </li>
+            <li onclick="dropdown_item()"><a href="#skills">Skills</a></li>
+            <li onclick="dropdown_item()"><a href="#contacts">Contact</a></li>
+            <li onclick="dropdown_item()"><a href="/resume.pdf">Resume</a></li>
+          </ul>
         </div>
       </div>
     </header>
@@ -514,6 +524,21 @@
       date = new Date();
       year = date.getFullYear();
       document.getElementById("year").innerHTML = year;
+
+      var dropdownBool = false;
+      function dropdown() {
+        dropdownBool = !dropdownBool;
+        if (dropdownBool === false) {
+          document.getElementById("dropdown").style.display = "none";
+        } else {
+          document.getElementById("dropdown").style.display = "flex";
+        }
+      }
+
+      function dropdown_item() {
+        dropdownBool = !dropdownBool;
+        document.getElementById("dropdown").style.display = "none";
+      }
     </script>
   </body>
 </html>
