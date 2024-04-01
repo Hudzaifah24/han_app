@@ -287,6 +287,7 @@ a {
   position: fixed;
   z-index: 50;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
   padding: 0.8rem 6rem;
   background-color: #fff;
